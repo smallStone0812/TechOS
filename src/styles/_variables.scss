@@ -1,0 +1,19 @@
+/* Windows 11 风格变量定义 */
+:root {
+  // 基础颜色
+  --win-theme-primary: #0078d4; // 经典 Windows 蓝
+  --win-bg-glass: rgba(255, 255, 255, 0.7); // 亚克力毛玻璃背景
+  --win-border-light: rgba(255, 255, 255, 0.3);
+
+  // 层级管理 (z-index)
+  --z-index-desktop: 1;
+  --z-index-window-base: 10;
+  --z-index-taskbar: 1000;
+  --z-index-context-menu: 2000;
+
+  // 窗口参数
+  --win-border-radius: 8px;
+  --win-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+  --win-default-width: 600px;
+  --win-default-height: 400px;
+}

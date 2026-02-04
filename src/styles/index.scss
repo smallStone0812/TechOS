@@ -1,0 +1,30 @@
+/* src/styles/index.scss */
+
+// 引入我们之前定义的变量
+@import './variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* 关键：让 padding 不撑开容器宽高 */
+  user-select: none; /* 桌面系统通常禁止文本选中（除非是输入框） */
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* 彻底切断任何溢出滚动 */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+/* 统一设置光标，模拟系统感 */
+body {
+  cursor: default;
+  background-color: #000;
+}
