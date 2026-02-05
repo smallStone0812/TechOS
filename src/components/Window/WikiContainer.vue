@@ -45,7 +45,7 @@
             <div v-if="currentContent.title" class="detail-content">
                 <h1>{{ currentContent.title }}</h1>
                 <div class="content-body">
-                    <slot :data="currentContent.content"></slot>
+                    <slot :data="currentContent"></slot>
                 </div>
             </div>
             <div v-else class="empty">请选择一个题目</div>
