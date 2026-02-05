@@ -2,7 +2,7 @@
     // 1. 系统配置协议
     export const config = {
         id: 'deep-clone-lab',
-        index: 2,
+        index: 4,
         title: '深拷贝可视化',
         icon: '🧬',
         category: 'JS_Lab',

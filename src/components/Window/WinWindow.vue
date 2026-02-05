@@ -49,6 +49,9 @@
         flex-direction: column;
         overflow: hidden;
         border: 1px solid rgba(0, 0, 0, 0.1);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .resize-handle {

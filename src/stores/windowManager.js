@@ -52,6 +52,7 @@ export const useWindowManager = defineStore('windowManager', {
     closeApp(appId) {
       this.openedApps = this.openedApps.filter((a) => a.id !== appId)
     },
+
     /**
      * 获取当前最大的 z-index
      * @returns
