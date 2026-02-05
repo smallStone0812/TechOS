@@ -6,8 +6,8 @@
         title: '面试题库',
         icon: '📝',
         category: 'QuestionBank',
-        width: 1400,
-        height: 900
+        width: 900,
+        height: 500
     }
     export default { config }
 </script>

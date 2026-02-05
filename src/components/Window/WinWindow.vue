@@ -9,7 +9,8 @@
 </script>
 
 <template>
-    <div :id="'win-' + app.id" class="win-window" :style="{ zIndex: app.zIndex }"
+    <div :id="'win-' + app.id" class="win-window"
+        :style="{ zIndex: app.zIndex, width: app.width + 'px', height: app.height + 'px' }"
         @mousedown="store.activeAppId = app.id">
         <div class="resize-handle n" v-resize="{ targetSelector: '#win-' + app.id, direction: 'n' }"></div>
         <div class="resize-handle s" v-resize="{ targetSelector: '#win-' + app.id, direction: 's' }"></div>
